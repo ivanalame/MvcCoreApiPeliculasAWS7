@@ -1,6 +1,6 @@
 ﻿@model Pelicula
 @{
-    string UrlBucket = configuration.GetValue<string>("AWS:S3BucketUrl");
+    string UrlBucket = keysModel.BucketUrl;
 }
 
 <p>
